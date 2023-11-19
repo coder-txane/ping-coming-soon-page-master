@@ -116,14 +116,23 @@ button:active {
     border: 1px solid var(--pale-blue);
     border-radius: 50%;
     height: 16px;
+    width: 16px;
     padding: 8px;
     margin: 0 6px;
     transition: 0.1s;
     cursor: pointer;
+    text-align: center;
+    font-size: 18px;
 }
 
 .social-icon:hover {
-    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    border-color: var(--blue);
+    font-size: 18px;
+}
+
+.social-icon:hover::before {
+    color: white;
 }
 
 #copyright {
@@ -145,7 +154,7 @@ footer {
     }
 
     nav {
-        margin: 2.8rem 0 2rem;
+        margin: 2.5rem 0 2rem;
     }
 
     #logo {
@@ -169,7 +178,7 @@ footer {
         align-items: baseline;
         justify-content: center;
         position: relative;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
     #email {
@@ -197,9 +206,15 @@ footer {
     }
 
     .social-icon {
-        height: 15px;
-        padding: 4px;
+        padding: 6px;
         margin: 0 4px;
+        font-size: 12px;
+        height: 12px;
+        width: 12px;
+    }
+
+    .social-icon:hover {
+        font-size: 12px;
     }
 
     #copyright {
