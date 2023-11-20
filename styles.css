@@ -74,6 +74,14 @@ h2 {
     display: none;
 }
 
+#input-valid-message {
+    font-size: 0.5rem;
+    color: green;
+    margin-top: 8px;
+    text-align: center;
+    display: none;
+}
+
 #email::placeholder {
     color: var(--pale-blue);
     font-weight: 200;
@@ -186,10 +194,14 @@ footer {
         margin-right: 12px;
     }
 
-    #input-error-message {
+    #input-error-message, #input-valid-message {
         position: absolute;
         top: 53px;
         right: 364px;
+    }
+
+    #input-valid-message {
+        right: 477px;
     }
 
     button {
