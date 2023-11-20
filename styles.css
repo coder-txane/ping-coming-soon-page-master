@@ -1,3 +1,5 @@
+/* Global variables */
+
 :root {
     --blue: hsl(223, 87%, 63%);
     --pale-blue: hsl(223, 100%, 88%);
@@ -7,6 +9,8 @@
     font-family: 'Libre Franklin';
     font-size: 20px;
 }
+
+/* Container */
 
 html {
     width: 100vw;
@@ -19,6 +23,8 @@ html {
     margin: auto;
 }
 
+/* Navbar section */
+
 nav {
     margin: 3rem 0 2rem;
     display: flex;
@@ -28,6 +34,8 @@ nav {
 #logo {
     height: 16px;
 }
+
+/* Header */
 
 h1 {
     font-size: 1.1rem;
@@ -48,13 +56,14 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Email form */
+
 #form {
     display: flex;
     flex-direction: column;
 }
 
 #email {
-    /* margin-bottom: 14px; */
     padding: 12px 32px;
     border-radius: 25px;
     border: 1px solid var(--pale-blue);
@@ -109,9 +118,13 @@ button:active {
     background-color: var(--pale-blue);
 }
 
+/* Dashboard image */
+
 #dashboard-img {
     width: 100%;
 }
+
+/* Social icons */
 
 #socials-container {
     display: flex;
@@ -143,6 +156,8 @@ button:active {
     color: white;
 }
 
+/* Copyright */
+
 #copyright {
     font-size: 0.5rem;
     color: var(--grey);
@@ -153,6 +168,8 @@ button:active {
 footer {
     display: none;
 }
+
+/* Larger screens */
 
 @media screen and (min-width: 600px) {
     #container {
